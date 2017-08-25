@@ -1,9 +1,9 @@
 buildscript {
-	repositories {
-		maven { 
+    repositories {
+        maven { 
             url "http://sogeo.services/maven/repository/release/" 
         }
-	}
+    }
 	dependencies {
 		classpath "ch.interlis:ili2pg:3.9.1"
 	}
